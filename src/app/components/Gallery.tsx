@@ -1,35 +1,18 @@
-import Image from "next/image";
-
-const images = [
-"/g1.jpg",
-"/g2.jpg",
-"/g3.jpg",
-"/g4.jpg",
-"/g5.jpg",
-];
-
 export default function Gallery() {
+const imgs = ["/g1.jpg", "/g2.jpg", "/g3.jpg", "/g4.jpg", "/g5.jpg"];
+
 return (
-<section id="galerie" className="py-16 bg-gray-50">
-<div className="max-w-6xl mx-auto px-4">
-<h2 className="text-3xl font-bold text-center text-slate-800 mb-8">
-Galerie
-</h2>
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-{images.map((src, index) => (
-<div
-key={index}
-className="relative w-full h-64 overflow-hidden rounded-lg shadow-md"
->
-<Image
+<section id="galerie" className="mx-auto max-w-6xl px-4 py-16">
+<h2 className="text-2xl font-semibold">Galerie</h2>
+<div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+{imgs.map((src, i) => (
+<img
+key={i}
 src={src}
-alt={`Photo salon ${index + 1}`}
-fill
-className="object-cover hover:scale-110 transition-transform duration-300"
+alt={`Réalisation ${i + 1}`}
+className="w-full rounded-lg object-cover aspect-[4/3]"
 />
-</div>
 ))}
-</div>
 </div>
 </section>
 );
