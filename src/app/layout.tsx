@@ -1,4 +1,5 @@
 import './globals.css';
+import Link from 'next/link';
 export const viewport = {
 width: 'device-width',
 initialScale: 1,
@@ -25,10 +26,11 @@ return (
 <header className="navbar">
 <a href="/" className="logo">Belle&Chic Coiffure</a>
 <nav>
-<a href="#services">Services</a>
-<a href="#tarifs">Tarifs</a>
-<a href="#galerie">Galerie</a>
-<a href="#avis">Avis</a>
+<nav>
+<Link href="#services">Services</Link>
+<Link href="#tarifs">Tarifs</Link>
+<Link href="#galerie">Galerie</Link>
+<Link href="#avis">Avis</Link>
 </nav>
 </header>
 
