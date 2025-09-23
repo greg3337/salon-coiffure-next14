@@ -70,7 +70,7 @@ rel="noopener noreferrer"
 </p>
 
 <p className="contact">
-📞 <a href="tel:+33556936788">05 56 93 67 88</a> <br />
+📞 <a href="tel:+33512345678">05 12 34B56 78</a> <br />
 ✉️ <a href="mailto:contact@bellechic.fr">contact@bellechic.fr</a>
 </p>
 
