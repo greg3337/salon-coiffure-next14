@@ -58,16 +58,7 @@ Belle&Chic Coiffure
 <p className="brand">
 © {new Date().getFullYear()} Belle&Chic Coiffure
 </p>
-<p className="meta">
-<a
-className="address"
-href="https://www.google.com/maps/search/?api=1&query=12+Rue+Sainte-Catherine,+33000+Bordeaux"
-target="_blank"
-rel="noopener noreferrer"
->
-12 Rue Sainte-Catherine, 33000 Bordeaux
-</a>
-</p>
+<p className="address">📍 Quartier Sainte-Catherine, Bordeaux</p>
 
 <p className="contact">
 📞 <a href="tel:+33512345678">05 12 34 56 78</a> <br />
