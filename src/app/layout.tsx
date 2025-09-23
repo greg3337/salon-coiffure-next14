@@ -108,22 +108,21 @@ viewBox="0 0 24 24"
 type="application/ld+json"
 dangerouslySetInnerHTML={{
 __html: JSON.stringify({
-'@context': 'https://schema.org',
-'@type': 'HairSalon',
-name: 'Belle&Chic Coiffure',
+"@context": "https://schema.org",
+"@type": "HairSalon",
+name: "Belle&Chic Coiffure",
 address: {
-'@type': 'PostalAddress',
-streetAddress: '12 Rue Sainte-Catherine',
-addressLocality: 'Bordeaux',
-postalCode: '33000',
-addressCountry: 'FR',
+"@type": "PostalAddress",
+addressLocality: "Bordeaux",
+postalCode: "33000",
+addressCountry: "FR"
 },
-telephone: '+33556000000',
-image: 'https://ton-domaine.fr/og-image.jpg',
-url: 'https://ton-domaine.fr',
-priceRange: '€€',
-openingHours: 'Tu-Sa 09:30-19:00',
-}),
+telephone: "+33512345678",
+image: "https://bellechic.vercel.app/og-image.jpg",
+url: "https://bellechic.vercel.app",
+priceRange: "€€",
+openingHours: "Tu-Sa 09:30-19:00"
+})
 }}
 />
 </footer>
