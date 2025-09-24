@@ -40,7 +40,12 @@ return (
 {/* HEADER */}
 <header className="navbar">
 <Link href="/" className="logo">
-Belle&Chic Coiffure
+<img
+src="/logo-bellechic.png"
+alt="Belle&Chic Coiffure"
+className="logo-img"
+/>
+<span className="slogan">Votre style, notre passion ✨</span>
 </Link>
 <nav>
 <Link href="#services">Services</Link>

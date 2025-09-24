@@ -34,6 +34,13 @@ h2{ font-size:28px; margin-bottom:14px; }
 .lead{ color:var(--muted); margin-bottom:10px; }
 
 /* NAVBAR */
+.logo img {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+}
 .navbar{
 position: sticky; top: 0; z-index: 50;
 display:flex; justify-content:space-between; align-items:center;
@@ -85,12 +92,31 @@ font-weight: bold;
 color: #111; /* Couleur de base */
 text-decoration: none;
 transition: color 0.3s ease, transform 0.2s ease;
+display: flex;
+align-items: center;
+gap: 8px;
 }
 
 .logo:hover {
 color: #6c63ff; /* Ta couleur violette du site */
 transform: scale(1.05); /* petit zoom discret */
 }
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo .slogan {
+    font-size: 14px;
+    font-style: italic;
+    color: #a67c52;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
 
 /* HERO 2 colonnes */
 .hero-grid{
